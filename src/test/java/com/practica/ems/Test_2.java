@@ -16,6 +16,9 @@ import com.practica.excecption.EmsDuplicatePersonException;
 import com.practica.excecption.EmsInvalidNumberOfDataException;
 import com.practica.excecption.EmsInvalidTypeException;
 
+import com.practica.excecption.EmsLocalizationNotFoundException;
+import com.practica.excecption.EmsPersonNotFoundException;
+
 public class Test_2 {
 
 	private static ContactosCovid contactosCovid;
