@@ -1,4 +1,4 @@
-:point_right: [![SonarCloud](https://github.com/miguelkoro/trabajo3-localizacion-covid/actions/workflows/main.yml/badge.svg)](https://github.com/miguelkoro/trabajo3-localizacion-covid/actions/workflows/main.yml)
+:point_right: PUT YOUR CI BADGE HERE
 
 # EMS-lab3 Maintainability
 
