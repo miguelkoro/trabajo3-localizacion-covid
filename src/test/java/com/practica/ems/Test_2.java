@@ -3,7 +3,6 @@ package com.practica.ems;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import java.io.IOException;
 import java.util.List;
 
 import org.junit.jupiter.api.Assertions;
@@ -24,7 +23,7 @@ public class Test_2 {
 	private static ContactosCovid contactosCovid;
 
 	@BeforeEach
-	void setUp() throws EmsInvalidTypeException, EmsInvalidNumberOfDataException, EmsDuplicatePersonException, EmsDuplicateLocationException, IOException {		
+	void setUp() {		
 		contactosCovid = new ContactosCovid();
 		contactosCovid.loadDataFile("datos.txt", false);
 	}
